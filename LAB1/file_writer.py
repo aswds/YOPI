@@ -28,8 +28,6 @@ def relative_freq(num, Sum):
 
 
 c = 0
-
-
 def cumulative_freq(item):
     global c
     c += item
