@@ -25,6 +25,7 @@ def variance(array):
 def standart_dev(array, file):
     var_x = variance(array)
     writeFile(file, f"Standard Deviation:{math.sqrt(var_x)}\n")
+    return math.sqrt(var_x)
 
 
 def middle_dev(array, file):

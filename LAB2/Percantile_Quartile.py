@@ -7,4 +7,4 @@ def percentile(k, array_len, file):
 def quartile(i, array_len, file):
     Qk = float(i / 4) * (array_len + 1)
     file.write(f'\n{i} Quartile: {Qk}')
-    pass
+    return Qk

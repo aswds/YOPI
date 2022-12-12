@@ -5,7 +5,7 @@ from task3 import task3
 from task4 import task4
 from Diagram import show_diagram
 
-file = open('./task_02_data/input_100.txt')
+file = open('./task_02_data/input_10.txt')
 answer_file = open('task.txt', 'w')
 array = []
 
